@@ -1,0 +1,49 @@
+{
+    "name": "wolilow",
+    "version": "1.0.1",
+    "description": "A web game of html5",
+    "scripts": {
+      "lint": "eslint wolilow"
+    },
+    "bin": {
+      "wolilow": "bin/wolilow.js"
+    },
+    "dependencies": {
+      "boi-compiler": "0.0.5",
+      "boi-deploy": "0.0.1",
+      "boi-mock": "0.0.1",
+      "boi-parser": "0.0.5",
+      "boi-server": "0.0.6",
+      "chalk": "^1.1.3",
+      "commander": "^2.9.0",
+      "ora": "^1.1.0",
+      "shelljs": "^0.7.0",
+      "yeoman-environment": "^1.6.6"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yuyancheng/wolilow"
+    },
+    "keywords": [
+      "wolilow",
+      "game",
+      "html5",
+      "web",
+      "scss",
+      "less",
+      "es2015",
+      "frontend"
+    ],
+    "engines": {
+      "node": ">=6.0"
+    },
+    "files": [
+      "bin/"
+    ],
+    "author": "yuyancheng <yyc22@qq.com> (https://github.com/yuyancheng)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yuyancheng/wolilow/issues"
+    },
+    "homepage": "https://yuyancheng.github.io/"
+  }
